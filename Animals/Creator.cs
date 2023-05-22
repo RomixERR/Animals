@@ -17,7 +17,7 @@ namespace Animls
             where T : class, iСategory, new()
         {
             bool SpeciesAppointed = false;
-            if (string.IsNullOrEmpty(SpeciesDescription)) {SpeciesDescription = "Нет описания типа";};
+            if (string.IsNullOrEmpty(SpeciesDescription)) {SpeciesDescription = "Нет описания вида";};
             if (string.IsNullOrEmpty(SpeciesName)) { SpeciesName = "--!КАТЕГОРИЯ НЕ НАЗВАНА!--";} else { SpeciesAppointed = true; };
             T animal = new T();
             animal.SetAnimal(SpeciesName, SpeciesDescription);
