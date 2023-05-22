@@ -59,17 +59,17 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Compile Include="Animals\Amphibian.cs" />
+    <Compile Include="Animals\Classes\Amphibian.cs" />
     <Compile Include="Animals\Animal.cs" />
-    <Compile Include="Animals\Bird.cs" />
+    <Compile Include="Animals\Classes\Bird.cs" />
     <Compile Include="Animals\iAnimal.cs" />
     <Compile Include="Animals\iAnimalCreatorT.cs" />
     <Compile Include="Animals\iAnimalCreator.cs" />
     <Compile Include="Animals\iСategory.cs" />
-    <Compile Include="Animals\Mammal.cs" />
+    <Compile Include="Animals\Classes\Mammal.cs" />
     <Compile Include="Animals\Creator.cs" />
     <Compile Include="Animals\MammalCreator.cs" />
-    <Compile Include="Animals\NullCategory.cs" />
+    <Compile Include="Animals\Classes\NullCategory.cs" />
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>

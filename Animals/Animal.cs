@@ -36,7 +36,7 @@ namespace Animls {
             string cn, sn, sds;
             if (СategoryAppointed) cn = $"Категория = {СategoryName}"; else cn = $"{СategoryName}";
             if (SpeciesAppointed) sn = $"Вид = {SpeciesName}";  else sn = $"{SpeciesName}";
-            if (String.IsNullOrEmpty(SpeciesDescription)) sds = $", Описание вида = {СategoryName}."; else sds = $".";
+            if (!String.IsNullOrEmpty(SpeciesDescription)) sds = $", Описание вида = {SpeciesDescription}."; else sds = $".";
 
             string str = $"Animal. {cn}, {sn}{sds}";
             return str;

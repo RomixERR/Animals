@@ -28,10 +28,13 @@ namespace Animls
             InitializeComponent();
             iAnimalCreator af = new MammalCreator();
             var cat = af.Create("Котяра");
-            Debug.WriteLine(cat);
 
             iAnimalCreatorT aa = new Creator();
             var frog = aa.Create<Amphibian>("Лямгущьк");
+            var cow = aa.Create<Mammal>("Коровка","Пасётся на вольном выгоне");
+
+            Debug.WriteLine(cat);
+            Debug.WriteLine(cow);
             Debug.WriteLine(frog);
 
 
