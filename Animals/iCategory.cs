@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Animls
 {
-    internal interface iСategory : iAnimal
+    internal interface iCategory : iAnimal
     {   /// <summary>
         /// Имя данного класса
         /// </summary>
@@ -19,7 +19,7 @@ namespace Animls
         /// Получить экземпляр
         /// </summary>
         /// <returns></returns>
-        iСategory GetAnimal();
+        iCategory GetAnimal();
         /// <summary>
         /// Установить экземпляр
         /// </summary>

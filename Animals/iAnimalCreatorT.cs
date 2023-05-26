@@ -8,7 +8,7 @@ namespace Animls
 {
     internal interface iAnimalCreatorT
     {
-        iСategory Create<T>(string SpeciesName, string SpeciesDescription = "")
-              where T : class, iСategory, new();
+        iCategory Create<T>(string SpeciesName, string SpeciesDescription = "")
+              where T : class, iCategory, new();
     }
 }

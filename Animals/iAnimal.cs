@@ -29,8 +29,9 @@ namespace Animls
         /// </summary>
         /// <param name="SpeciesName">Название вида</param>
         /// <param name="SpeciesDescription">Описание вида</param>
-        void SetAnimal(string SpeciesName, string SpeciesDescription);
+        void CreateNewAnimal(string SpeciesName, string SpeciesDescription);
         void SetSpeciesAppointed(bool SpeciesAppointed);
+        int ID { get; }
         string ToString();
     }
 }

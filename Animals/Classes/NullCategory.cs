@@ -1,6 +1,6 @@
 ﻿namespace Animls
 {
-    internal class NullCategory : Animal, iСategory
+    internal class NullCategory : Animal, iCategory
     {
         public NullCategory()
         {
@@ -8,7 +8,7 @@
             СategoryDescription = "-!ТАКОГО КЛАССА НЕ СУЩЕСТВУЕТ!-";
         }
 
-        public iСategory GetAnimal()
+        public iCategory GetAnimal()
         {
             NullCategory animal = this;
             return animal;

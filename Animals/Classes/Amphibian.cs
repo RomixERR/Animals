@@ -1,6 +1,6 @@
 ﻿namespace Animls
 {
-    internal class Amphibian: Animal, iСategory
+    internal class Amphibian: Animal, iCategory
     {
         public Amphibian()
         {
@@ -8,7 +8,7 @@
             СategoryDescription = "Позвоночное животное, дышащее в раннем возрасте жабрами, а во взрослом состоянии лёгкими.";
             СategoryAppointed = true;
         }
-        public iСategory GetAnimal()
+        public iCategory GetAnimal()
         {
             Amphibian animal = this;
             return animal;

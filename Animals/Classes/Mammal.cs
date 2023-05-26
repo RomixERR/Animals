@@ -1,6 +1,6 @@
 ﻿namespace Animls
 {
-    internal class Mammal : Animal, iСategory
+    internal class Mammal : Animal, iCategory
     {
         public Mammal():base()
         {
@@ -8,7 +8,7 @@
             СategoryDescription = "Класс позвоночных животных, основной отличительной особенностью которых является вскармливание детёнышей молоком.";
             СategoryAppointed = true;
         }
-        public iСategory GetAnimal()
+        public iCategory GetAnimal()
         {
             var animal = this;
             return animal;

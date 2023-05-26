@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace Animls
 {
-    internal interface iAnimalCreator
+    internal interface iDataSaver
     {
-        iCategory Create(string SpeciesName, string SpeciesDescription = "");
+        void Save(DataBase dataBase, string fileName);
     }
 }

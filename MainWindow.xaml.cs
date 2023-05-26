@@ -26,16 +26,15 @@ namespace Animls
             Debug.WriteLine("=============             ===================                        ====================              ================");
 
             InitializeComponent();
-            iAnimalCreator af = new MammalCreator();
-            var cat = af.Create("Котяра");
 
-            iAnimalCreatorT aa = new Creator();
-            var frog = aa.Create<Amphibian>("Лямгущьк");
-            var cow = aa.Create<Mammal>("Коровка","Пасётся на вольном выгоне");
+            DataBase db = new DataBase();
+            iDataLoader dataLoader = new TestDataLoader();
 
-            Debug.WriteLine(cat);
-            Debug.WriteLine(cow);
-            Debug.WriteLine(frog);
+            db.LoadData(dataLoader,"");
+
+            Debug.WriteLine( db.GetLastID());
+            Debug.WriteLine(db);
+
 
 
 

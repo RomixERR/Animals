@@ -1,6 +1,6 @@
 ﻿namespace Animls
 {
-    internal class Bird : Animal, iСategory
+    internal class Bird : Animal, iCategory
     {
         public Bird()
         {
@@ -8,7 +8,7 @@
             СategoryDescription = "Группа теплокровных яйцекладущих позвоночных животных, традиционно рассматриваемая в ранге отдельного класса.";
             СategoryAppointed = true;
         }
-        public iСategory GetAnimal()
+        public iCategory GetAnimal()
         {
             Bird animal = this;
             return animal;
